@@ -1,4 +1,86 @@
-body {
-    background-color: orange;
+* {
+    padding: 0;
+    margin: 0;
+}
 
+.logo-img {
+    background-color: black;
+
+}
+
+/*Common Style*/
+.common-btn {
+    font-family: "Inter", sans-serif;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    border: none;
+
+}
+
+div {
+    font-family: "Arimo", sans-serif;
+    display: flex;
+    gap: 13px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    list-style: none;
+    padding: 12px 0;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+
+}
+
+ul li a {
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+
+/*Hero section style */
+.hero-parent img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    display: block;
+}
+
+.hero-conteiner {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.hero-conteiner h1 {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.hero-conteiner p {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.hero-conteiner button {
+    margin-top: 80px;
+    padding: 10px 20px;
 }

@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .logo-img {
@@ -88,3 +89,182 @@ ul li a {
 }
 
 /*card section style */
+.speakers {
+    text-align: center;
+}
+
+.speaker-container {
+    padding-top: 40px;
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.card img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    display: block;
+
+}
+
+.card-content {
+    padding: 25px;
+}
+
+.card-content h5 {
+    color: #2563eb;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.card-content h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    color: #666;
+    font-size: 18px;
+}
+
+/*pricing section start*/
+.pricing {
+    width: 90%;
+    max-width: 1200px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.pricing h1 {
+    font-size: 60px;
+    color: #17253A;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.pricing-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 18px;
+    padding: 35px;
+    text-align: left;
+}
+
+.active {
+    background: #0F1D2E;
+    color: #fff;
+}
+
+.card h4 {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.active h4 {
+    color: #5BA4FF;
+}
+
+.card h2 {
+    font-size: 60px;
+    margin-bottom: 8px;
+}
+
+.price-text {
+    color: gray;
+    margin-bottom: 25px;
+}
+
+.active .price-text {
+    color: #bbb;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, .12);
+    margin-bottom: 25px;
+}
+
+.active hr {
+    border-top: 1px solid rgba(255, 255, 255, .15);
+}
+
+ul {
+
+
+    margin-bottom: 35px;
+}
+
+ul li {
+
+    margin: 15px 0;
+    color: #444;
+    position: relative;
+    padding-left: 18px;
+}
+
+ul li::before {
+
+    content: "•";
+    color: #2F66F3;
+    position: absolute;
+    left: 0;
+}
+
+.active li {
+    color: #ddd;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.outline-btn {
+    border: 2px solid #2F66F3;
+    background: #fff;
+    color: #2F66F3;
+}
+
+
+
+.outline-dark {
+    border: 2px solid #17253A;
+    background: #fff;
+    color: #17253A;
+}
+
+button:hover {
+    opacity: .9;
+}
